@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-
+//s
 public class MainActivity extends AppCompatActivity {
 
     static final String API_LINK = "http://192.168.254.1:81/api/showLivres";
