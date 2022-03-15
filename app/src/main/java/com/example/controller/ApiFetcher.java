@@ -22,8 +22,8 @@ public class ApiFetcher {
             listesLivres.add(
                     new Livre(
                             Integer.parseInt(jsonArray.getJSONObject(i).getString("id")),
-                            jsonArray.getJSONObject(i).getString("id"),
-                            jsonArray.getJSONObject(i).getString("id")
+                            jsonArray.getJSONObject(i).getString("title"),
+                            jsonArray.getJSONObject(i).getString("ISBN")
                     )
             );
 
